@@ -1,0 +1,93 @@
+#swi{
+    /* border: 2px solid; */
+    height: 300px;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+#swi1{
+   /* border: 2px solid red; */
+   height: inherit;
+   width: 30%;
+   margin-left: 200px;
+}
+#swi1 img{
+    margin-top: 50px;
+    padding-left: 50px;
+    height: 25px;
+}
+#swi1 ol{
+    margin-top: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+#swim{
+    /* border: 2px solid red; */
+    height: 200px;
+    width: 80%;
+    transform: translate(600px);
+    margin-top: -120px;
+}
+#swim h1{
+    font-size: 20px;
+}
+#swim input{
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+}
+#swim button{
+    height: 50px;
+    width: 300px;
+    background-color: #000;
+    color: #fff;
+}
+#last{
+    border: 2px solid;
+    height: 80px;
+    width: 100%;
+    background-color: #49bde2;
+}
+#last h1{
+    position: relative;
+    top: 20px;
+    padding-left: 200px;
+}
+
+
+
+
+#body h1{
+    color: #fff;
+    font-size: 100px;
+    padding-left: 150px;
+    margin-top: 100px;
+}
+#body h2{
+    color: #fff;
+    padding-left: 150px;
+    font-size: 50px;
+}
+#body p{
+    color: #fff;
+    padding-left: 150px;
+    font-size: 20px;
+}
+#body button{
+    margin-left: 150px;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    width: 150px;
+    border-radius: 10%;
+}
+#last h1 a{
+    text-decoration: none;
+    color: #fff;
+}
+#last h1{
+    color: #fff;
+}

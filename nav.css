@@ -1,0 +1,181 @@
+@import url(./main.css);
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+#nav{
+    border: 2px solid;
+     height: 100px;
+     background-color: #007bff;
+     display: flex;
+}
+#nav a{
+    text-decoration: none;
+    color: #fff;
+}
+#nav img{
+    height: 30px;
+    padding-left: 20px;
+    margin-top: 35px;
+}
+
+#sub-nav{
+    /* border: 2px solid red; */
+    height: inherit;
+    width: 55%;
+    margin: auto;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    
+}
+#sub-nav img{
+    margin-bottom: 25px;
+}
+#sub-nav i{
+    margin-right: -150px;
+}
+#sub-nav i+i{
+    margin-right: -150px;
+}
+#body{
+    border: 2px solid;
+    height: 500px;
+    width: 100%;
+    background-image: url(./img/banner-bg.png);
+}
+#body button{
+    text-decoration: none;
+}
+#body1{
+    /* border: 2px solid; */
+    height: 100px;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#one{
+    border: 1px solid white;
+    height: 70px;
+    width: 30%;
+    display: flex;
+}
+#two{
+    border: 1px solid white;
+    height: 70px;
+    width: 30%;
+}
+#one h1{
+    color: #fff;
+    margin: auto;
+}
+#two h1{
+    color: #fff;
+    position: relative;
+    top:20px ;
+    padding-left: 150px;
+}
+#main{
+    border: 2px solid;
+    width: 100%;
+    height: 2725px;
+    background-image: url(./img/services-bg.png);
+}
+#main h1{
+    margin-top: 98px;
+    padding-left: 200px;
+    color: #fff;
+}
+#main img{
+     padding-left: 200px;
+     width: 300px;
+     height: 500px;
+     width: 500px;
+}
+#note{
+    border: 2px solid white;
+    height: 500px;
+    width: 60%;
+    transform: translate(510px);
+    margin-top: -500px;
+}
+#note p{
+    padding-left: 100px;
+    font-size: 25px;
+}
+#note button{
+    height: 50px;
+    width: 150px;
+    border-radius: 10%;
+    background-color: #000;
+    transform: translate(100px);
+    
+}
+#note button a{
+    font-size: 15px;
+    color: #fff;
+}
+#note1{
+    border: 2px solid white;
+    border: 2px solid white;
+    height: 500px;
+    width: 60%;
+    transform: translate(200px);
+}
+#note1 p{
+    padding-left: 100px;
+    font-size: 25px;
+
+}
+#note1 button{
+    height: 50px;
+    width: 150px;
+    border-radius: 10%;
+    background-color: #000;
+    margin-left: 100px;
+    transform: translateY(-100px);
+}
+#note1 button a{
+    font-size: 15px;
+    color: #fff;
+    
+}
+#note1 img{
+    transform: translate(460px);
+    margin-top: -355px;
+}
+#note2{
+    border: 2px solid white;
+    height: 600px;
+    width: 80%;
+    margin-left: 200px;
+}
+#note2 h2{
+    margin-top: 150px;
+    padding-left: 500px;
+    font-size: 30px;
+}
+#note2 p{
+    padding-left: 50px;
+    font-size: 25px;
+
+}
+#note2 button{
+    height: 50px;
+    width: 150px;
+    border-radius: 10%;
+    background-color: #000;
+    margin-left: 500px;
+    position: relative;
+    top: 50px;
+    
+}
+#note2 button a{
+    font-size: 15px;
+    color: #fff;
+    
+}
